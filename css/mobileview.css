@@ -40,15 +40,15 @@ h1 {
 }
 
 .align-left.slide-in {
-  transform:translateX(-30%) scale(0.95);
+  transform:translateX(-30%) scale(0.5);
 }
 .align-right.slide-in {
-  transform:translateX(30%) scale(0.95);
+  transform:translateX(30%) scale(0.5);
 }
 
 .slide-in.active {
   opacity:1;
-  transform:translateX(0%) scale(1);
+  transform:translateX(0%) scale(0.5);
 }
 }
 @media (min-width: 320px) and (max-width: 480px) {html {
@@ -76,7 +76,10 @@ h1 {
   padding:40px;
   text-align: justify;
 }
-
+img{
+  postion: center;
+  margin: 0 auto;
+}
 .align-left {
   float:left;
   margin-right:20px;
@@ -93,14 +96,14 @@ h1 {
 }
 
 .align-left.slide-in {
-  transform:translateX(-30%) scale(0.95);
+  transform:translateX(-30%) scale(0.5);
 }
 .align-right.slide-in {
-  transform:translateX(30%) scale(0.95);
+  transform:translateX(30%) scale(0.5);
 }
 
 .slide-in.active {
   opacity:1;
-  transform:translateX(0%) scale(1);
+  transform:translateX(0%) scale(0.5);
 }
 }
